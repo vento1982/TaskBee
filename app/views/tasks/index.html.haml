@@ -1,0 +1,6 @@
+%h1 All Tasks in BeeTask
+- @tasks.each do |task|
+	%h2= link_to task.name, task_path(task)
+	%p= task.company
+
+%p= link_to "New Task", new_task_path, class: "btn btn-primary btn-md"
