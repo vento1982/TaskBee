@@ -15,3 +15,73 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%
+}
+
+body {
+	height: 100%;
+	background-color:#fff;
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	color: #ffa500;
+}
+/* Navbar Styles*/
+
+.navbar-default{
+	height: 80px;
+	border-radius: 0;
+	border: none;
+	padding: 15px 0;
+	
+	.navbar-brand{
+		letter-spacing: 2px;
+		font-size: 2em;
+		color: #ffa500;
+	}
+
+	.navbar-nav+a{
+		color: #ffa500;
+		font-weight: bold;
+	}
+}
+
+/* Tasks Stylong */
+
+#jobs{
+	
+	.job{
+		height: 300px;
+		margin:10px;
+		padding: 60px 30px;
+		background-color: #f8f8f8;
+
+		h2{
+			text-align: center;
+
+			a{
+				color: #999;
+
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+
+		p{
+			text-align: center;
+			color: #ffa500;
+		}
+	}
+}
+
+/* Forms Styling */
+
+.dropdown-toggle{}
